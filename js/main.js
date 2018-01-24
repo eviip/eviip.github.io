@@ -33,3 +33,13 @@ $(function() {
     });
   });
 });
+
+var email = document.getElementById('requests');
+
+email.addEventListener('input', function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity('Enter an integer with no punctuation.');
+  } else {
+    email.setCustomValidity('');
+  }
+});

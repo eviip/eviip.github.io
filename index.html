@@ -78,7 +78,7 @@ layout: default
                     </div>
                     <div class="form-group">
                         <div class="input-group-lg">
-                            <input type="text" class="form-control" placeholder="Monthly API requests*" name="requests" id="requests" pattern="^\d+$" required>
+                            <input type="text" class="form-control" placeholder="Monthly API requests*" name="requests" id="requests" pattern="^\S+$" required>
                         </div>
                     </div>
                     <div class="form-group">
@@ -95,7 +95,7 @@ layout: default
                 </div>
                 <div class="col-md-4">
                     <p class="lead">Let us know you are interested in the EVIIP service by providing some basic information. We'll announce the official release date via email to those who register.</p>
-                    <p>*Please provide us an integer estimate of the number of monthly decoding requests you will be making. </p>
+                    <p>*Please provide us an integer estimate of the number of monthly decoding requests you will be making. (Whole number only, no punctuation)</p>
                     <p>**Please list the key values you use in your decoding requests. </p>
                     <div class="response-success" style="display:none;">
                         <p class="lead text-success">Your response has been received! We will contact you with more details about EVIIP as the launch date approaches. Thanks!</p>
