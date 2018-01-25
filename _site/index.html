@@ -127,7 +127,7 @@
                 <form class="" id="beta-form" method="POST" action="https://script.google.com/macros/s/AKfycbzIEcpaCQVSEJfl1j5FhVd3EaRRl6xySDqseSKtJYSx1Qn06Xo/exec">
                     <div class="form-group">
                         <div class="input-group-lg">
-                            <input type="text" class="form-control" placeholder="Your Name" name="name" id="name" pattern="^\S{2,}$" required>
+                            <input type="text" class="form-control" placeholder="Your Name" name="name" id="name" pattern="^.{2,}$" required>
                         </div>
                     </div>
                     <div class="form-group">
@@ -142,7 +142,7 @@
                     </div>
                     <div class="form-group">
                         <div class="input-group-lg">
-                            <input type="text" class="form-control" placeholder="Monthly API requests*" name="requests" id="requests" pattern="^.+$" required>
+                            <input type="text" class="form-control" placeholder="Monthly API requests*" name="requests" id="requests" pattern="\S+$" required>
                         </div>
                     </div>
                     <div class="form-group">
